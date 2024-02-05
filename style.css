@@ -1,0 +1,322 @@
+body{
+    background-color: gainsboro;
+}
+nav{
+    text-transform: uppercase; 
+    background-color:black !important;  
+}
+.nav-link {
+    color:white ;
+}
+.navbar .navbar-nav .active {
+    color: rgb(31, 31, 255);
+}
+.navbar .navbar-nav :hover {
+    color: rgb(31, 31, 255);
+}
+
+header {
+    background-image: url("images/img/hero-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+header .layer{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.animation::after{
+    font-size: 25px;
+   content: "";
+   animation: text 5s infinite ; 
+}
+@keyframes text {
+    0%{
+        content:"|";
+    }
+    2%{
+        content: "R|";
+    }
+    4%{
+        content: "Re|";
+    }
+    6%{
+        content: "Rea|";
+    }
+    8%{
+        content: "Real |";
+    }
+    10%{
+        content: "Real E|";
+    }
+    12%{
+        content: "Real Es|";
+    }
+    14%{
+       content: "Real Est|";
+    }
+    16%{
+        content: "Real Esta|";
+    }
+    18%{
+        content: "Real Estat|";
+    }
+    20%{
+      content: "Real Estate|";
+    }
+    22%{
+      content: "Real Estate|";
+    }
+    24%{
+      content: "Real Estate |";
+    }
+    26%{
+      content: "Real Estate c|";
+    }
+    28%{
+      content: "Real Estate co|";
+    }
+    30%{
+      content: "Real Estate com|";
+    }
+    32%{
+      content: "Real Estate comp|";
+    }
+    34%{
+      content: "Real Estate compa|";
+    }
+    36%{
+      content: "Real Estate compan|";
+    }
+    38%{
+      content: "Real Estate company|";
+    }
+    40%{
+      content: "Real Estate company|";
+    }
+    42%{
+      content: "Real Estate company|";
+    }
+    44%{
+      content: "Real Estate company|";
+    }
+    46%{
+      content: "Real Estate company|";
+    }
+    50%{
+      content: "Real Estate company|";
+    }
+    52.5%{
+        content:"Real Estate compan|";
+    }
+    55%{
+        content: "Real Estate compa|";
+    }
+    57.5%{
+        content: "Real Estate comp|";
+    }
+    60%{
+        content: "Real Estate com|";
+    }
+    62.5%{
+        content: "Real Estate co|";
+    }
+    65%{
+        content: "Real Estate c|";
+    }
+    67.5%{
+        content: "Real Estate |";
+    }
+    70%{
+       content: "Real Estate|";
+    }
+    72.5%{
+        content: "Real Estat|";
+    }
+    75%{
+        content: "Real Esta|";
+    }
+    77.5%{
+      content: "Real Est|";
+    }
+    80%{
+      content: "Real Es|";
+    }
+    82.5%{
+      content: "Real E |";
+    }
+    85%{
+      content: "Real |";
+    }
+    87.5%{
+      content: "Real|";
+    }
+    90%{
+      content: "Rea|";
+    }
+    92.5%{
+      content: "Re|";
+    }
+    95%{
+      content: "R|";
+    }
+    97.5%{
+      content: "|";
+    }
+    100%{
+      content: "|";
+    }
+   
+    
+  /* about style */
+}
+#about{
+    width: 90%;
+    margin: auto;
+    background-color: white !important;
+    
+}
+.main-row{
+    column-gap: 10%;
+}
+.about-me-img{
+    border-radius: 30px;
+}
+.about-me-personal-information p span {
+    font-weight: 700;
+}
+/* services style */
+.services .container .row div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.services .container .row {
+    justify-content: space-between;
+}
+.services .container .row div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* icon style */
+.fa-briefcase,.fa-list-check,.fa-signal{
+    color: black;
+    background-color: white;
+    font-size: 40px;
+    padding: 12px;
+    border: 10px solid rgb(16, 82, 250);
+    border-radius: 60%;
+}
+.services .container .row div a :hover {
+    background-color: rgb(16, 82, 250);;
+    border: 10px solid rgb(91, 177, 253);
+}
+.services-img{
+   height: 60vh;
+    background-image: url("images/img/post-3.jpg");
+    margin: 50px 0px;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed ;
+}
+.services-img .layer{
+    background-color: rgb(0 133 255 / 63%);
+    height: inherit;
+}
+.services-img .layer p{
+    color: gainsboro ;
+}
+
+.fa-check,
+.fa-users{
+    width: 20%;
+    height: 40%;
+    font-size: 10px;
+    border: 5px solid gainsboro;
+    padding: 10px;
+    border-radius: 50%;
+    color: gainsboro;
+    
+}
+@media (max-width: 768px) {
+    .services .row .col-md-4 .card {
+        margin-bottom: 20px;
+    }
+    .services-img{
+    height: fit-content;
+}
+.services-img .layer{
+    flex-direction: column;
+    height: fit-content;
+}
+.work .container .row div{
+    margin-bottom: 20px;
+}
+
+}
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.card{
+    overflow: hidden;
+}
+.work .container .row .col-md-4 .card img{
+    transition: transform .2s;
+    overflow: hidden;
+}
+.work .container .row .col-md-4 .card img:hover{
+    transform: scale(1.2) ;
+    overflow: hidden;
+}
+.card-body svg{
+    font-size: 25px;
+    border: 2px solid rgba(16, 82, 250,0.8);
+    border-radius: 50%;
+    padding: 10px;
+    color:rgba(16, 82, 250,0.8) ;
+}
+.card-body svg:hover{
+    cursor: pointer;
+    background-color: rgb(39, 89, 255);
+    color: white;
+}
+
+.carousel-item{
+    background-image: url("images/img/overlay-bg.jpg");
+    height: 70vh;
+    width: 100%;
+}
+.carousel-item .layer{
+    background-color: rgb(0 133 255 / 63%);
+    height: inherit;
+
+}
+.carousel-caption{
+   bottom: 10rem;
+}
+.contact-me{
+    height: 100vh;
+    margin-bottom: 20px;
+}
+.contact-me .row .col-md-5 p{
+    display: inline-block;
+}
+.social-media svg{
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 35px;
+    padding: 5px;
+    margin: 20px 0px;
+    transition: transform .2s;
+}
+.social-media svg:hover{
+    color: rgb(54, 101, 255);
+    background-color:white;
+    border:rgb(54, 101, 255);
+    transform: scale(0.8);
+}

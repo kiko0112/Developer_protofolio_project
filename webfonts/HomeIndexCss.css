@@ -1,0 +1,75 @@
+header {
+    background-image: url("images/img/hero-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+header .layer{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.animation::after{
+    font-size: 25px;
+   content: "";
+   animation: text 5s infinite ; 
+}
+@keyframes text {
+    0%{
+        content:"|";
+    }
+    5%{
+        content: "d|";
+    }
+    10%{
+        content: "de|";
+    }
+    15%{
+        content: "dev|";
+    }
+    20%{
+        content: "devel|";
+    }
+    25%{
+        content: "develo|";
+    }
+    30%{
+        content: "develop|";
+    }
+    35%{
+       content: "develope|";
+    }
+    40%{
+        content: "developer|";
+    }
+    45%{
+        content: "developer|";
+    }
+    50%{
+      content: "develope|";
+    }
+    
+    55%{
+        content: "develop|";
+    }
+    60%{
+        content: "develo|";
+    }
+    65%{
+        content: "devel|";
+    }
+    70%{
+        content: "deve|";
+    }
+    75%{
+        content: "dev|";
+    }
+    80%{
+        content: "de|";
+    }
+    95%{
+       content: "d|";
+    }
+    100%{
+        content: "|";
+    }
+  /* about style */
+}
